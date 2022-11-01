@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="Bootstrap/bootstrap.min.css" />
+  <link rel="stylesheet" href="Css/style.css" />
+  <link rel="stylesheet" href="Css/all.min.css" />
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <section id="title">
+      <div class="container-fluid">
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <a href="#" class="navbar-brand">&nbsp;Store</a>
+          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nvBrand">
+            <span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="nvBrand">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#cta" class="nav-link">&nbsp;Download</a>
+              </li>
+              <li class="nav-item">
+                <a href="#price" class="nav-link">&nbsp;Price</a>
+              </li>
+              <li class="nav-item">
+                <a href="#footer" class="nav-link">&nbsp;Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Tittle -->
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <h1>This is for title.</h1>
+            <button type="button" class="btn btn-dark btn-md"> <i class="fa-brands fa-apple"></i> Download</button>
+            <button type="button" class="btn btn-outline-light btn-md"><i class="fa-brands fa-google-play"></i> Download</button>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <img src="Images/img1.jpg" alt="title-photo" class="img--1"/>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="features">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 feature--div">
+            <h4 class="fa-solid fa-circle-check"></h4>
+            <h3 class="h3--title">Work</h3>
+            <p>this is for my work.</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 feature--div">
+            <h4 class="fa-solid fa-pen-to-square"></h4>
+            <h3 class="h3--title">Cv</h3>
+            <p>oh this project for my cv.</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 feature--div">
+            <h4 class="fa-solid fa-heart"></h4>
+            <h3 class="h3--title">Test4Me</h3>
+            <p>for last feature.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="testimonials">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <h2>This is image for testimonials.</h2>
+      <img src="Images/img--2.jpg" alt="Testimonials Photo" class="img--Test" />
+      <em>First image in this section.</em>
+    </div>
+    <div class="carousel-item">
+      <h2>This is image--2 for testimonials.</h2>
+      <img src="Images/img--3.jpg" alt="Testimonials Photo" class="img--Test" />
+      <em>Tow image in this section.</em>
+    </div>
+    <div class="carousel-item">
+      <h2>This is image--3 for testimonials.</h2>
+      <img src="Images/img--4.jpg" alt="Testimonials Photo" class="img--Test" />
+      <em>Last image in this section.</em>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </section>
+    <section id="price">
+      <div class="container-fluid">
+        <h1 class="plan">Plans for this site.</h1>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 card--1">
+            <div class="card">
+              <div class="card-header">
+                <h3>Free</h3>
+              </div>
+              <div class="card-body">
+                <h5>$0 / month</h5>
+                <p>First Feather</p>
+                <p>Tow Feather</p>
+                <p>Last Feather</p>
+                <button type="button" class="btn btn-outline-primary btn-md">Sign up</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 card--2">
+            <div class="card">
+              <div class="card-header">
+                <h3>Vip</h3>
+              </div>
+              <div class="card-body">
+                <h5>$150 / month</h5>
+                <p>First Feather</p>
+                <p>Tow Feather</p>
+                <p>Last Feather</p>
+                <button type="button" class="btn btn-primary btn-md">Get Start</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="cta">
+      <h3>This is for download.</h3>
+      <button type="button" class="btn btn-md btn-dark"><i class="fa-brands fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-md btn-light"><i class="fa-brands fa-google-play"></i> Download</button>
+    </section>
+    <section id="footer">
+      <i class="fab fa-twitter social"></i>
+      <i class="fab fa-instagram social"></i>
+      <i class="fab fa-facebook social"></i>
+      <i class="fas fa-envelope social"></i>
+      <p>© copyright 2022 store</p>
+    </section>
+  </main>
+  <script src="JavaScript/bootstrap.bundle.min.js"></script>
+  </script>
+</body>
+</html>
